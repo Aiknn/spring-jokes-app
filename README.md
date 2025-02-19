@@ -11,3 +11,18 @@
     * Spring Web
     * Thymeleaf
 * start project and download maven files (if not auto enabled)
+
+### Add Chuck Norris Actuator
+* add dependency in POM
+  * groupId: guru.springframework
+  * artifactId: chuck-norris-for-actuator
+  * version: 2.4.0
+* reload Maven
+* check Maven tab for having chuck-noris-for-actuator in Dependencies (or find it in External libraries)
+
+### Service Level
+* create services package
+* create interface with method
+* create class with implementation to previous interface 
+  * add @Service annotation 
+  * create private final object from Chuck Noris + create constructor
