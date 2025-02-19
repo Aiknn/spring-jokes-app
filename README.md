@@ -26,3 +26,12 @@
 * create class with implementation to previous interface 
   * add @Service annotation 
   * create private final object from Chuck Noris + create constructor
+
+### Control level
+* create controllers package
+* add @Controller annotation 
+* create private final interface of service + constructor 
+* create String method with args Model model 
+* add to method - model.addAttribute("joke", jokeService.getJoke())
+* return page, for example "index"
+* add annotation to method @RequestMapping({"/", ""})
